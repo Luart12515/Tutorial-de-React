@@ -1,0 +1,22 @@
+{
+    "superdatos": [
+        {
+            "titulo": "Tarea",
+            "responsable": "Juan",
+            "description": "Trabajar mucho y bien",
+            "priority": "baja"
+        },
+        {
+            "titulo": "Tarea 2",
+            "responsable": "Daniel",
+            "description": "Trabajar mucho y bien",
+            "priority": "Alta"
+        },
+        {
+            "titulo": "Tarea 3",
+            "responsable": "Pedro",
+            "description": "Programacion",
+            "priority": "baja"
+        }
+    ]
+}
