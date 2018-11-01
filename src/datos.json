@@ -1,22 +1,28 @@
 {
     "superdatos": [
         {
-            "titulo": "Tarea",
+            "titulo": "Tarea 1",
             "responsable": "Juan",
-            "description": "Trabajar mucho y bien",
-            "priority": "baja"
+            "description": "Trabajo en la base de datos",
+            "priority": "media"
         },
         {
             "titulo": "Tarea 2",
             "responsable": "Daniel",
-            "description": "Trabajar mucho y bien",
+            "description": "Jefe de area de desarrollo",
             "priority": "Alta"
         },
         {
             "titulo": "Tarea 3",
             "responsable": "Pedro",
-            "description": "Programacion",
-            "priority": "baja"
+            "description": "Programacion pagina principal",
+            "priority": "media"
+        },
+        {
+            "titulo": "Tarea 4",
+            "responsable": "Julio",
+            "description": "Programacion lado de servidor",
+            "priority": "media"
         }
     ]
 }
