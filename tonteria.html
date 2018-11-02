@@ -60,19 +60,40 @@
 
 
 
-    <nav className="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse">
          
-        <div className="container-fluid">   
-            <div className="navbar-header">
-                <a className="navbar-brand" href="#">WebSiteName</a>
+        <div class="container-fluid">   
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
             </div>
-            <ul className="nav navbar-nav">
-                <li className="active"><a href="#">Home</a></li>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Page 1</a></li>
                 <li><a href="#">Page 2</a></li>
                 <li><a href="#">Page 3</a></li>
             </ul>
         </div>
    </nav>
+
+   <nav class="container">
+    <nav class="row">
+        <nav class="card">
+            <nav class="card-header">
+                <h4>Agregar tarea</h4>
+            </nav>
+             <form id="newcard" class="card-body">
+                <div class="form-group">
+                    <label>Titulo: </label>
+                    <input type="text" name="titulo" placeholder="Tarea Titulo" class="form-control">                
+                </div>
+                <div class="form-group">
+                  <label>EXTRA : </label>
+                  <input type="text-area" name="titulo" placeholder="Tarea Titulo" class="form-control">                
+              </div>
+              
+            </form>
+        </nav>
+    </nav>
+</nav>
 </body>
 </html>

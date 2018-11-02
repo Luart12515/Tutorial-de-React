@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/navigation'
+import Agregar from './components/Agregar'
 import {superdatos} from './datos.json'
 
 class App extends Component {
@@ -53,6 +54,7 @@ class App extends Component {
               {datosAVer}  
             </div>
           </div>
+
       </div>
     );
   }
