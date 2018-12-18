@@ -27,7 +27,6 @@ class Navigation extends Component{
                     <li className="nav-item">
                         <a className="nav-link" href="#">Link 3</a>
                     </li>
-               
                 </ul>
             </nav>
         )

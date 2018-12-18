@@ -6,14 +6,9 @@ import {superdatos} from './datos.json'
 
 class App extends Component {
   constructor(){
-    super(); //Es necesario " super" para poder heredar la funcionalidad de React 
+    super();
     
-    this.state = { //Estado de los datos en una aplicacion de React
-      /* este es un ejemplo   como funciona, ingresando los datos directamente en la funcion
-      titulo: 'Aplicacion de Trabajos', //son los datos del objeto a transmitir solo son 2 caracterisitcas 
-      NumeroTarea: 10  //datos de ejemplo 
-      */
-      /* llama al objeto entero que se encuentra en el documento datos*/ 
+    this.state = { 
       superdatos 
     } 
   }
@@ -26,7 +21,7 @@ class App extends Component {
           <div className="card mt-4 recuadro bordes">
             <div className="card-header">
               <h3>
-                {dato.titulo}
+                hola a todos 
               </h3>
               <div className="badge badge-pill badge-danger" >
                 {dato.priority}
